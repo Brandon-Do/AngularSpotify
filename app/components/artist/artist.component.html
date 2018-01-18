@@ -1,0 +1,28 @@
+<div class='container'>
+  <div *ngIf="artist">
+      <header class="artist-header">
+        <div *ngIf="artist.images.length > 0">
+          <img class="artist-thumb img-rounded" src="{{artist.images[0].url}}">
+        </div>
+        <h1>{{artist.name}}</h1>
+        <p *ngIf="artist.genres.length > 0">
+          Genres: <span *ngFor="let genre of artist.genres">{{genre}}, </span>
+      </header>
+
+  <div class="artist-albums">
+    <div class="row">
+      <div *ngFor="let album of albums">
+        <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
+          <div class="card bg-faded album">
+            <div *ngIf="album.images.length > 0">
+              <img class="img-thumbnail" src="{{album.images[0].url}}">
+              <h4>{{album.name}}</h4>
+              <a class="btn btn-default btn-block"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
