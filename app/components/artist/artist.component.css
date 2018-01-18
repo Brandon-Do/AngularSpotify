@@ -1,0 +1,33 @@
+.artist-header{
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px darkgrey;
+}
+
+.artist-thumb {
+  width: 80px;
+  height: auto;
+  float: left;
+  margin-right: 17.5px;
+  border-radius: 50%;
+}
+
+.container {
+  margin-top: 5%;
+}
+
+.artist-albums .card {
+  margin-bottom: 20px;
+  min-height: 40px;
+}
+
+.album {
+  text-align: center;
+  background: lightgray;
+  padding: 10px 20px;
+  border: 1px solid;
+}
+
+.album-thumb {
+  width: 100%;
+}
