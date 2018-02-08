@@ -1,6 +1,8 @@
 # SpotifyApp
 
 [LIVE DEMONSTRATION](http://bd-spotify.herokuapp.com/)
+![Albums](https://raw.githubusercontent.com/Brandon-Do/AngularSpotify/master/Capture.PNG)
+![Search](https://raw.githubusercontent.com/Brandon-Do/AngularSpotify/master/Untitled1.png)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
 ## Development server
