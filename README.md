@@ -1,5 +1,6 @@
 # SpotifyApp
 
+[LIVE DEMONSTRATION](http://bd-spotify.herokuapp.com/)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
 ## Development server
